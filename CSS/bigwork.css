@@ -1,0 +1,105 @@
+.bigwork
+{
+    padding: 0px 0px;
+}
+.bigwork_maintop
+{
+    height: 1050px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 150px;
+    background-color: #2F3841;
+}
+.bigwork_img
+{
+    height: 800px;
+    width: 100%;
+    box-shadow: 4px 10px 20px 16px #1F272F;
+    background-image: url(../img/網頁作品整理/恩/3D/coat\ girl.png);
+    background-position:center center;
+    background-size:cover;
+
+}
+.bigwork_des_list
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #FFFFFF;
+}
+.bigwork_authorimg
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #FFFFFF;
+}
+.bigwork_title
+{
+    font-size: 32px;
+}
+.bigwork_mainbottom
+{
+    background-color:#2F3841;
+}
+.bigwork_otherwork
+{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 200px 200px 0 0;
+    padding: 100px 150px 0px 150px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    position: relative;
+}
+.bigwork_workboxlist
+{
+    display: flex;
+    justify-content: space-between;
+}
+.bigwork_iconaimlist
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-bottom: 25px;
+    position: relative;
+}
+.bigwork_iconlist
+{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin-bottom: 50px ;
+
+}
+.bigwork_icon
+{
+    width: 25px;
+    height: 25px;
+}
+.W_workbox_other
+{
+    margin-top: 30px;
+}
+.W_workbox_des
+{
+    color: #000000;
+}
+.bigwork_aim
+{
+    position: relative;
+    right: -100px;
+    width: 50px;
+    height: 50px;
+}
+.bigwork_star
+{
+    position: absolute;
+    right: 250px;
+    top: -35px;
+    transform: rotate(270deg);
+
+}

@@ -1,0 +1,157 @@
+main
+{
+    padding: 0px;
+    overflow: hidden;
+}
+.Contantus_mainlist
+{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+.Contantus_Rlist_border_Bigtitle
+{
+    text-align: right;
+    position: relative;
+    z-index: 1;
+    
+}
+.Contantus_Rlist_border_title
+{
+    text-align: right;
+}
+.Contantus_TopList_Title,.Contantus_DownList_Title
+{
+    font-size: 24px;
+    margin-bottom: 30px;
+
+}
+.Contantus_mainlist
+{
+    height: 1000px;
+}
+.Contantus_TopList_Title
+{
+    margin-top: 250px;
+}
+.Contantus_Llist
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 155px;
+}
+.Contantus_DownList_iconlist
+{
+    margin-bottom: 380px;
+}
+.Contantus_TopList_Function
+{
+    display: flex;
+    align-items: center;
+}
+.Contantus_TopList_Function_DES
+{
+    margin-left: 20px;
+}
+.Contantus_TopList_Function_icon
+{
+    height: 24px;
+    width: 24px;
+}
+.aA
+{
+    text-align: right;
+    width: inherit;
+    line-height: 30px;
+}
+.Contantus_DownList_icon
+{
+    height: 29px;
+    width: auto;
+}
+.Contantus_DownList_iconlist
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Contantus_DownList_Title
+{
+    margin-bottom: 30px;
+}
+.Contantus_Rlist_border
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-end;
+    position: relative;
+    padding-right: 100px;
+    padding-bottom: 90px;
+    top: 40px;
+    left: 40px;
+    height: 100%;
+    border: #FFFFFF solid 1px;
+    border-radius: 200px 0 0 0;
+}
+.Contantus_Rlist_border_Ticonlist
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    width: 100%;    
+    position: relative;
+}
+.Contantus_Rlist_Tborder_icon_L
+{
+    height: 50px;
+    width: auto;
+    position: relative;
+    top: -80px;
+}
+.Contantus_Rlist
+{
+    background-color: #404650;
+    width: 50%;
+    position: relative;
+}
+.Contantus_Rlist_border_Bigtitle
+{
+    margin: 0;
+    font-size: 32px;
+    line-height: 50px;
+}
+.Contantus_Rlist_border_Biconlist
+{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    width: 100%;
+}
+.Contantus_Rlist_border_Bicon_L
+{
+    margin-left: 100px;
+    animation: rotation 20s infinite linear;
+}
+.Contantus_Rlist_border_Textlist
+{
+    margin-bottom: 175px;
+    position: relative;
+    z-index: 1;
+}
+.Contantus_Rlist_border_eyes
+{
+    position: absolute;
+    bottom: 120px;
+    z-index: 0;
+}
+.Contantus_Rlist_border_star
+{
+    position: absolute;
+    z-index: 2;
+    left: -13px;
+    bottom: 380px;
+}

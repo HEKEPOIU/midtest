@@ -1,0 +1,118 @@
+
+main
+{
+    background-color: #2F3841;
+    padding: 0 154px;
+}
+.W_titlelist
+{
+    display: flex;
+    background-color: #2F3841;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 95px;
+}
+.W_title_Leftpic
+{
+    width: 94px;
+    height: 94px;
+    animation: rotation 20s infinite linear;
+}
+.W_title_Rightpic
+{
+    width: 107px;
+    height: 86px;
+}
+.W_titleanddes
+{
+    color:  #FFFFFF;
+    text-align: center;
+}
+.W_mainworklist
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+.W_mainwork
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.W_workbox
+{
+    width: 325px;
+    height: 325px;
+    background-color: #D9D9D9;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow:hidden;
+    position: relative;
+
+}
+.W_workbox_des
+{
+    text-align: center;
+}
+.W_workbox_T
+{
+    flex-grow:1;
+}
+.W_workbox_B
+{
+    background-color: #fff;
+}
+.W_workbox_Like
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    background-image: url(../img/Vector.svg);
+    background-position:center center;
+    background-size:cover;
+}
+.W_workbox_Likefull
+{
+    background-image: url(../img/like\ full.svg);
+}
+.link
+{
+    background-color: #fff;
+    color: #2F3841;
+}
+.W_workbox_img
+{
+    height: 277px;
+}
+.W_iconandnext
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-bottom: 50px;
+}
+.W_iconlist
+{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    left: -75px;
+}
+.W_icon
+{
+    margin-left: 30px;
+}
+.W_next
+{
+    position: relative;
+    right: -25px;
+}
