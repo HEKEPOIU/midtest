@@ -2,7 +2,7 @@
 main
 {
     background-color: #2F3841;
-    padding: 0 154px;
+    /* padding: 0 154px; */
 }
 .W_titlelist
 {
@@ -43,8 +43,8 @@ main
 }
 .W_workbox
 {
-    width: 325px;
-    height: 325px;
+    width: 280px;
+    height: 280px;
     background-color: #D9D9D9;
     margin-top: 30px;
     display: flex;

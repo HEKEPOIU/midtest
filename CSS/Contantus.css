@@ -19,6 +19,7 @@ main
 .Contantus_Rlist_border_title
 {
     text-align: right;
+    font-size: 22px;
 }
 .Contantus_TopList_Title,.Contantus_DownList_Title
 {
@@ -154,4 +155,8 @@ main
     z-index: 2;
     left: -13px;
     bottom: 380px;
+}
+.contantus
+{
+    width: 100%;
 }
