@@ -29,6 +29,7 @@ p
 body
 {
     background-color: #2F3841;
+    overflow:scroll;
 }
 a{
     text-decoration:none;
@@ -220,6 +221,7 @@ header
     position: absolute;
     right:-125px;
     bottom: -125px;
+    animation: rotation 10s infinite linear;
 }
 .main_vision_line
 {
@@ -482,4 +484,105 @@ footer
     text-align: center;
     padding: 35px 0px;
     background-color: #FCCC3C;
+}
+
+
+@media screen and (max-width: 1200px){
+
+    .all
+    {
+        width: 900px;
+    }
+    .main_work_floatpic
+    {
+        left: -40px;
+        top: -20px;
+        width: 100px;
+        height: 100px;
+    }
+    .main_vision_piclist
+    {
+        position: relative;
+        left: -160px;
+    }
+    .main_team_content
+    {
+        padding: 41px 50px;
+    }
+    .main_vision_line
+    {
+        width: 300px;
+    }
+    .main_vision_cycle
+    {
+        width: 100px;
+    }
+    .main_vision_eyes
+    {
+        left: -200px;
+    }
+    .main_vision_eyes_rel
+    {
+        right: 190px;
+    }
+    .main_vision_aim
+    {
+        left: 20px;
+        bottom: -50px;
+    }
+    .main_vision_botton_word_R
+    {
+        margin: 0px;
+    }
+    .main_vision_botton_word_M
+    {
+        margin: 0px;
+    }
+    .main_vision_botton_word_L
+    {
+        top: -15px;
+        left: 0px;
+    }
+}
+@media screen and (max-width: 1024px){
+
+    .all
+    {
+        width: 768px;
+    }
+    .main_work_floatpic
+    {
+        left: -100px;
+        top: -20px;
+        width: 100px;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 768px){
+
+    .all
+    {
+        width: 480px;
+    }
+    .main_work_floatpic
+    {
+        left: -100px;
+        top: -20px;
+        width: 100px;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 480px){
+
+    .all
+    {
+        width: 100%;
+    }
+    /* .main_work_floatpic
+    {
+        left: -100px;
+        top: -20px;
+        width: 100px;
+        height: 100px;
+    } */
 }
