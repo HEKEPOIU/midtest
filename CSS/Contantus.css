@@ -160,3 +160,133 @@ main
 {
     width: 100%;
 }
+.Contantus_Rlist_border_Bicon_R
+{
+    width: 150px;
+}
+.Contantus_Rlist_Tborder_icon_R
+{
+    width: 100px;
+}
+@media screen and (max-width: 1080px)
+{
+    .Contantus_TopList_Function
+    {
+        width: 250px;
+    }
+    .Contantus_Rlist_border_Bicon_L
+    {
+        width: 100px;
+        margin-left: 30px;
+    }
+    .Contantus_Rlist_border_Bicon_R
+    {
+        width: 100px;
+    }
+    .Contantus_Rlist_border_eyes
+    {
+        width: 300px;
+    }
+    .Contantus_Rlist_border_title
+    {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .Contantus_Llist
+    {
+        padding: 0px 50px;
+    }
+}
+@media screen and (max-width: 803px)
+{
+    .Contantus_mainlist
+    {
+        flex-direction: column;
+    }
+    .Contantus_Rlist
+    {
+        width: 100%;
+    }
+    .Contantus_mainlist
+    {
+        height: auto;
+    }
+    .Contantus_DownList_iconlist
+    {
+        width: 300px;
+    }
+    .Contantus_TopList_Function_DES
+    {
+        font-size: 16px;
+    }
+    .Contantus_TopList_Function
+    {
+        width: 400px;
+    }
+    .Contantus_DownList_iconlist
+    {
+        margin-bottom: 200px;
+    }
+    .Contantus_Rlist_border_eyes
+    {
+        width: 250px;
+    }
+    .Contantus_Rlist_border_Bigtitle
+    {
+        font-size: 24px;
+    }
+    .Contantus_Rlist_border
+    {
+        border-radius: 120px 0 0 0;
+        padding: 0px 50px 50px 0px;
+    }
+    .Contantus_Rlist_border_title
+    {
+        color: rgba(184, 184, 184, 1);
+    }
+    .aA
+    {
+        color: rgba(184, 184, 184, 1);
+    }
+
+}
+@media screen and (max-width: 480px)
+{
+    .Contantus_DownList_iconlist
+    {
+        width: 250px;
+    }
+    .Contantus_DownList
+    {
+        margin-top: 50px;
+    }
+    .Contantus_DownList_iconlist
+    {
+        margin-bottom: 100px;
+    }
+    .Contantus_TopList_Title
+    {
+        margin-top: 80px;
+    }
+    .Contantus_Rlist_border_Textlist
+    {
+        margin-bottom: 75px;
+    }
+    .Contantus_Rlist_border_Bicon_L
+    {
+        width: 75px;
+    }
+    .Contantus_Rlist_border_Bigtitle
+    {
+        font-size: 16px;
+    }
+    .Contantus_Rlist_border_title
+    {
+        width: 280px;
+        margin-left: 60px;
+    }
+    .Contantus_Rlist_Tborder_icon_L
+    {
+        left: -20px;
+    }
+}

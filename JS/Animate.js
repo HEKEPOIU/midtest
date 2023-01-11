@@ -19,5 +19,15 @@ $(document).ready(function () {
     });
   }
   catch{}
-
+  try
+  {
+    lottie.loadAnimation({
+      wrapper: main_vision_eyes_blurstar,
+      animType: 'svg',
+      autoplay: true,
+      loop: true,
+      path: './json/base.json'
+  });
+  }
+  catch{}
 })

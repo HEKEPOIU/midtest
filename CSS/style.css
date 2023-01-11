@@ -230,9 +230,10 @@ header
 .main_vision_eyes_blurstar
 {
     position: absolute;
-    right:-125px;
+    right:-200px;
     bottom: -125px;
-    animation: rotation 10s infinite linear;
+    filter: blur(20px);
+    /* animation: rotation 10s infinite linear; */
 }
 .main_vision_line
 {

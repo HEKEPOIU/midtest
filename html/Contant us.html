@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link rel="icon" href="./img/icon.ico">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie.min.js"></script>
+    <script src="../JS/jQuery.js"></script>
+    <script src="../JS/Animate.js"></script>
     <title>聯絡我們</title>
 </head>
 <body>
@@ -25,6 +27,34 @@
             <a class="header_Butten"  href="./2D.html">2D作品</a>
             <a class="header_Butten"  href="./Contant us.html">聯絡我們</a>
             <a class="header_Butten"  href="./Contant us.html">接案流程</a>
+        </div>
+        <label for="burger" class="header_burger"><img src="../img/BURGER.svg" alt=""></label>
+        <input type="checkbox" id="burger">
+        <div class="header_burgermenu">
+            <div class="header_burgermenuyellow">我看設計</div>
+            <a class="burgermenu_butten" href="../index.html">
+                <p class="burgermenu_butten_text">首頁</p>
+                <img src="./img/Barrow.svg" alt="" class="burgermenu_butten_icon">
+            </a>
+            <a class="burgermenu_butten" href="./3D.html">
+                <p class="burgermenu_butten_text">3D作品</p>
+                <img src="./img/Barrow.svg" alt="" class="burgermenu_butten_icon">
+            </a>
+            <a class="burgermenu_butten" href="./2D.html">
+                <p class="burgermenu_butten_text">2D作品</p>
+                <img src="./img/Barrow.svg" alt="" class="burgermenu_butten_icon">
+            </a>
+            <a class="burgermenu_butten" href="./Contant us.html">
+                <p class="burgermenu_butten_text">聯絡我們</p>
+                <img src="./img/Barrow.svg" alt="" class="burgermenu_butten_icon">
+            </a>
+            <a class="burgermenu_butten" href="./Contant us.html">
+                <p class="burgermenu_butten_text">接案流程</p>
+                <img src="./img/Barrow.svg" alt="" class="burgermenu_butten_icon">
+            </a>
+            <label class="burgermenu_butten" for="burger">
+                <img src="../img/burgerdisable.svg" class="burgermenu_butten_burgerdisable" alt="">
+            </label>
         </div>
     </header>
     <div class="all contantus">
@@ -63,7 +93,7 @@
                     <div class="Contantus_Rlist_border">
                         <div class="Contantus_Rlist_border_Ticonlist">
                             <img src="../img/AIM.png" alt="" class="Contantus_Rlist_Tborder_icon_L">
-                            <img src="../img/IDKWTF.png" alt="" class="Contantus_Rlist_Tborder_icon_R">
+                            <div alt="" class="Contantus_Rlist_Tborder_icon_R" id="animate1"> </div>
                         </div>
                         <h1 class="Contantus_Rlist_border_Bigtitle">when you look long into a design, <br>the design looks into you.</h1>
                         <div class="Contantus_Rlist_border_Textlist">
@@ -77,7 +107,7 @@
                         <img src="../img/Star.png" alt="" class="Contantus_Rlist_border_star">
                         <div class="Contantus_Rlist_border_Biconlist">
                             <img src="../img/Group 66.png" alt="" class="Contantus_Rlist_border_Bicon_L">
-                            <img src="../img/ROTATE.png" alt="" class="Contantus_Rlist_border_Bicon_R">
+                            <div src="" alt="" class="Contantus_Rlist_border_Bicon_R" id="animate">
                         </div>
                     </div>
                 </div>

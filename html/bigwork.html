@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="..\CSS\bigwork.css">
     <link rel="stylesheet" href="..\CSS\style.css">
     <link rel="stylesheet" href="..\CSS\pic.css">
     <link rel="stylesheet" href="..\CSS\normallize.css">
     <link rel="stylesheet" href="..\CSS\work.css">
+    <link rel="stylesheet" href="..\CSS\bigwork.css">
     <script src="../JS/jQuery.js"></script>
+    <script type=”text/javascript” src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
     <script src="../JS/Click.js"></script>
     <script src="../JS/Read.js"></script>
     <link rel="preconnect" href="https://rsms.me/">
@@ -18,21 +19,49 @@
     <title>作品</title>
 </head>
 <body>
+    <header>
+        <img src="..\img\Logo.png" alt="logo" class="logo">
+        <h1 class="header_Word">我看設計</h1>
+        <div class="header_right">
+            <a class="header_Butten"  href="../index.html">首頁</a>
+            <a class="header_Butten"  href="./3D.html">3D作品</a>
+            <a class="header_Butten"  href="./2D.html">2D作品</a>
+            <a class="header_Butten"  href="./Contant us.html">聯絡我們</a>
+            <a class="header_Butten"  href="./Contant us.html">接案流程</a>
+        </div>
+        <label for="burger" class="header_burger"><img src="../img/BURGER.svg" alt=""></label>
+        <input type="checkbox" id="burger">
+        <div class="header_burgermenu">
+            <div class="header_burgermenuyellow">我看設計</div>
+            <a class="burgermenu_butten" href="../index.html">
+                <p class="burgermenu_butten_text">首頁</p>
+                <img src="./img/Barrow.svg" alt="" class="burgermenu_butten_icon">
+            </a>
+            <a class="burgermenu_butten" href="./3D.html">
+                <p class="burgermenu_butten_text">3D作品</p>
+                <img src="./img/Barrow.svg" alt="" class="burgermenu_butten_icon">
+            </a>
+            <a class="burgermenu_butten" href="./2D.html">
+                <p class="burgermenu_butten_text">2D作品</p>
+                <img src="./img/Barrow.svg" alt="" class="burgermenu_butten_icon">
+            </a>
+            <a class="burgermenu_butten" href="./Contant us.html">
+                <p class="burgermenu_butten_text">聯絡我們</p>
+                <img src="./img/Barrow.svg" alt="" class="burgermenu_butten_icon">
+            </a>
+            <a class="burgermenu_butten" href="./Contant us.html">
+                <p class="burgermenu_butten_text">接案流程</p>
+                <img src="./img/Barrow.svg" alt="" class="burgermenu_butten_icon">
+            </a>
+            <label class="burgermenu_butten" for="burger">
+                <img src="../img/burgerdisable.svg" class="burgermenu_butten_burgerdisable" alt="">
+            </label>
+        </div>
+    </header>
     <div class="all">
-        <header>
-            <img src="..\img\Logo.png" alt="logo" class="logo">
-            <h1 class="header_Word">我看設計</h1>
-            <div class="header_right">
-                <a class="header_Butten"  href="../index.html">首頁</a>
-                <a class="header_Butten"  href="./3D.html">3D作品</a>
-                <a class="header_Butten"  href="./2D.html">2D作品</a>
-                <a class="header_Butten"  href="./Contant us.html">聯絡我們</a>
-                <a class="header_Butten"  href="./Contant us.html">接案流程</a>
-            </div>
-        </header>
         <main class="bigwork">
             <div class="bigwork_maintop">
-                <img src="../img/shadow.png" alt="" class="main_vision_shadow">
+                <!-- <img src="../img/shadow.png" alt="" class="main_vision_shadow"> -->
                 <div class="bigwork_img"></div>
                 <div class="bigwork_des_list">
                     <div class="bigwork_leftlist">
@@ -42,52 +71,56 @@
                     <div class="bigwork_authorimg"></div>
                 </div>
             </div>
-            <div class="bigwork_mainbottom">
-                <div class="bigwork_otherwork">
-                    <img src="../img/starGroup.png" alt="" class="bigwork_star">
-                    <h2 class="bigwork_title">相關作品</h2>
-                    <div class="bigwork_workboxlist">
-                        <div class="W_workbox W_workbox_other">
-                            <img src="../img/Vector.svg" alt="" class="W_workbox_Like">
-                            <div class="W_workbox_T W_P2"></div>
-                            <div class="W_workbox_B">
-                                <p class="W_workbox_des">作者:瓜田米     說明:南音就喜海光卜占</p>
-                            </div>
-                        </div>
-                        <div class="W_workbox W_workbox_other">
-                            <img src="../img/Vector.svg" alt="" class="W_workbox_Like">
-                            <div class="W_workbox_T W_P2"></div>
-                            <div class="W_workbox_B">
-                                <p class="W_workbox_des">作者:瓜田米     說明:南音就喜海光卜占</p>
-                            </div>
-                        </div>
-                        <div class="W_workbox W_workbox_other">
-                            <img src="../img/Vector.svg" alt="" class="W_workbox_Like">
-                            <div class="W_workbox_T W_P2"></div>
-                            <div class="W_workbox_B">
-                                <p class="W_workbox_des">作者:瓜田米     說明:南音就喜海光卜占</p>
-                            </div>
-                        </div>
-                        <div class="W_workbox W_workbox_other">
-                            <img src="../img/Vector.svg" alt="" class="W_workbox_Like">
-                            <div class="W_workbox_T W_P2"></div>
-                            <div class="W_workbox_B">
-                                <p class="W_workbox_des">作者:瓜田米     說明:南音就喜海光卜占</p>
-                            </div>
-                        </div>
-                    </div>
-                <div class="bigwork_iconaimlist">
-                    <div class="bigwork_iconlist">
-                        <img src="../img/FB.svg" alt="" class="bigwork_icon">
-                        <img src="../img/IG.svg" alt="" class="bigwork_icon">
-                        <img src="../img/twitter.svg" alt="" class="bigwork_icon">
-                    </div>
-                    <img src="../img/AIM.png" alt="" class="bigwork_aim">
-                </div>
-                </div>
-            </div>
         </main>
-        <footer>我看設計，設計看我</footer>
     </div>
+    <div class="bigwork_mainbottom">
+        <div class="bigwork_otherwork">
+            <img src="../img/starGroup.png" alt="" class="bigwork_star">
+            <h2 class="bigwork_title_B">相關作品</h2>
+            <div class="bigwork_workboxlist">
+                <div class="W_workbox W_workbox_other b1">
+                    <img src="../img/Vector.svg" alt="" class="W_workbox_Like">
+                    <div class="W_workbox_T W_P2"></div>
+                    <div class="W_workbox_B">
+                        <p class="W_workbox_des">作者:瓜田米     說明:南音就喜海光卜占</p>
+                    </div>
+                </div>
+                <div class="W_workbox W_workbox_other b2 back">
+                    <img src="../img/Vector.svg" alt="" class="W_workbox_Like">
+                    <div class="W_workbox_T W_P2"></div>
+                    <div class="W_workbox_B">
+                        <p class="W_workbox_des">作者:瓜田米     說明:南音就喜海光卜占</p>
+                    </div>
+                </div>
+                <div class="W_workbox W_workbox_other b3 back1">
+                    <img src="../img/Vector.svg" alt="" class="W_workbox_Like">
+                    <div class="W_workbox_T W_P2"></div>
+                    <div class="W_workbox_B">
+                        <p class="W_workbox_des">作者:瓜田米     說明:南音就喜海光卜占</p>
+                    </div>
+                </div>
+                <div class="W_workbox W_workbox_other b4 back2">
+                    <img src="../img/Vector.svg" alt="" class="W_workbox_Like">
+                    <div class="W_workbox_T W_P2"></div>
+                    <div class="W_workbox_B">
+                        <p class="W_workbox_des">作者:瓜田米     說明:南音就喜海光卜占</p>
+                    </div>
+                </div>
+                <input type="radio" id="imgLOOP" name="LOOP" class="imgLOOP">
+                <label class="burgermenu_butten" for="imgLOOP">
+                    <img src="../img/" class="burgermenu_butten_burgerdisable" alt="">
+                </label>
+            </div>
+            <div class="bigwork_iconaimlist">
+                <div class="bigwork_iconlist">
+                    <img src="../img/FB.svg" alt="" class="bigwork_icon">
+                    <img src="../img/IG.svg" alt="" class="bigwork_icon">
+                    <img src="../img/twitter.svg" alt="" class="bigwork_icon">
+                </div>
+                <img src="../img/AIM.png" alt="" class="bigwork_aim">
+            </div>
+        </div>
+    </div>
+<footer>我看設計，設計看我</footer>
 </body>
 </html>
