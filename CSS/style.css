@@ -2,7 +2,10 @@
 @supports (font-variation-settings: normal) {
   :root { font-family: 'Inter var', sans-serif; }
 }
-
+input
+{
+    display: none;
+}
 html
 {
     font-family: Inter; 
@@ -15,7 +18,10 @@ html
     z-index: 4;
     user-select: none;
 }
-
+.header_burgermenu
+{
+    display: none;
+}
 *,*:after,*:before
 {
     box-sizing: inherit;
@@ -813,9 +819,9 @@ footer
     }
     .main_vision_iconlist
     {
-        left: -35px;
+        left: -50px;
         width: 80px;
-        bottom: -360px;
+        bottom: -260px;
         z-index: 2;
     }
     .main_vision_iconlist_pic
@@ -864,9 +870,81 @@ footer
     {
         display: none;
     }
+    .header_burgermenu
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        justify-items: center;
+        list-style-type: none;
+        left: 0px;
+        top: -500px;
+        padding: 0px;
+        background-color: #1C2B3A;
+        transition: top 1s ease 0s;
+        /* transition-property:all; */
+    }
+    .burgermenu_butten
+    {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-color: #1C2B3A;
+        width: 100%;
+
+        /* display: none; */
+    }
+
+    .burgermenu_butten:active 
+    {
+        background-color: #0E151C;
+    }
+    .burgermenu_butten_icon
+    {
+        margin-right: 30px;
+    }
+
+    .burgermenu_butten_text
+    {
+        font-size: 20px;
+        color: white;
+        margin-left: 30px;
+    }
+    .burgermenu_butten_burgerdisable
+    {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header_burgermenuyellow
+    {
+        width: 100%;
+        height: 42px;
+        margin-bottom: 30px;
+        background-color: #FCCC3C;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        text-align: center;
+    }
+    #burger:checked +.header_burgermenu
+    {
+        transition: top 1s ease 0s;
+        /* display:flex; */
+        top: 0px;
+    }
 }
 @media screen and (max-width: 480px){
 
+    .main_idea_Des
+    {
+        width: 260px;
+        font-size: 12px;
+    }
     .all
     {
         width: 100%;
@@ -891,13 +969,29 @@ footer
         /* font-size: 20px; */
         top: -25px;
     }
-    /* .main_vision_subtitle_decT
+    .main_vision_subtitle_decT
     {
-        font-size: 12px;
-    } */
+        display: none;
+    }
     .main_vision_subtitle_decc
     {
-        font-size: 7px;
+        font-size: 12px;
+    }
+    .main_vision_subtitle
+    {
+        position: relative;
+        top: -130px;
+        font-size: 12px;
+    }
+    .a
+    {
+        width: 250px;
+        display: none;
+    }
+    .b
+    {
+        display: none;
+        width: 300px;
     }
     .main_vision_line
     {
@@ -906,6 +1000,7 @@ footer
     }
     .main_vision_line_star
     {
+        width: 20px;
         top: 5px;
         left: 25px;
     }
