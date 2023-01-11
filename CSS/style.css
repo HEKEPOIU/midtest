@@ -122,6 +122,7 @@ header
 .main_vision_content
 {
     display: flex;
+    position: relative;
     justify-content: space-between;
     color: #FFFFFF;
 }
@@ -780,13 +781,13 @@ footer
     {
         width: 275px;
         height: 360px;
-        left: 230px;
+        left: 220px;
     }
     .main_vision_eyes_rel
     {
         width: 275px;
         height: 360px;
-        left: 250px;
+        left: 240px;
         bottom: -25px;
     }
     .main_vision_subtitle
@@ -808,13 +809,13 @@ footer
     {
         width: 60px;
         top: -55px;
-        right: -180px;
+        right: -160px;
     }
     .main_vision_iconlist
     {
         left: -35px;
         width: 80px;
-        bottom: -330px;
+        bottom: -360px;
         z-index: 2;
     }
     .main_vision_iconlist_pic
@@ -877,4 +878,35 @@ footer
         width: 100px;
         height: 100px;
     } */
+    .main_vision_text
+    {
+        /* width: 2    00px; */
+    }
+    /* .main_vision_subtitle
+    {
+        font-size: 12px;
+    } */
+    .main_vision_title
+    {
+        /* font-size: 20px; */
+        top: -25px;
+    }
+    /* .main_vision_subtitle_decT
+    {
+        font-size: 12px;
+    } */
+    .main_vision_subtitle_decc
+    {
+        font-size: 7px;
+    }
+    .main_vision_line
+    {
+        top: 5px;
+        left: 50px;
+    }
+    .main_vision_line_star
+    {
+        top: 5px;
+        left: 25px;
+    }
 }
