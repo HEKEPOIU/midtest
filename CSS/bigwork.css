@@ -144,9 +144,28 @@
 }
 @media screen and (max-width: 768px)
 {
+    button
+    {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0);
+        outline: none;
+        border-style:none;
+    }
+    .next
+    {
+        right: 10px;
+        bottom: 230px;
+    }
+    .pre
+    {
+        left: 10px;
+        bottom: 230px;
+    }
     .bigwork_workboxlist
     {
         display: flex;
+        position: relative;
+        left: 0;
         /* flex-shrink:0; */
         /* justify-content:center; */
         width: 300px;
@@ -154,6 +173,7 @@
         overflow: hidden;
         margin-left: auto;
         margin-right: auto;
+        transition: left 1s ease-in 0s;
     }
     .bigwork_otherwork
     {
@@ -190,6 +210,10 @@
     {
         text-align: center;
     }
+    .b1
+    {
+        transition: left 1s ease-in 0s;
+    }
     .back
     {
         flex-shrink:0;
@@ -204,9 +228,31 @@
     }
     .W_workbox_other 
     {
+        position: relative;
+        /* left: -100%; */
         flex-shrink:0;
         width: 300px;
         height: 300px;
+    }
+    .offset0
+    {
+        transition: left 1s ease-in 0s;
+        left: 0%;
+    }
+    .offset
+    {
+        transition: left 1s ease-in 0s;
+        left: -100%;
+    }
+    .offset1
+    {
+        transition: left 1s ease-in 0s;
+        left: -200%;
+    }
+    .offset2
+    {
+        transition: left 1s ease-in 0s;
+        left: -300%;
     }
     .imgLOOP
     {
